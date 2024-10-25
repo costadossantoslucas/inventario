@@ -6,12 +6,12 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   const errorMessage = document.getElementById('errorMessage');
 
   // Validação de credenciais
-  if (username === 'sicdigital' && password === '123.senha') {
+  if (username === '123' && password === '123') {
     // Redireciona para a tela inicial
-    window.location.href = 'PAGE/home.html';
+    window.location.href = '/page/home.html';
  // Certifique-se de que este caminho está correto
   } else {
     // Exibe mensagem de erro
-    errorMessage.style.display = 'block';
+    //errorMessage.style.display = 'block';
   }
 });
