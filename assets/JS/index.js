@@ -30,7 +30,7 @@ document.getElementById("loginForm").addEventListener("submit", (event) => {
             // Login bem-sucedido
             const user = userCredential.user;
             console.log("Usuário autenticado:", user);
-            window.location.href = "pages/home.html";  // Redireciona para home.html
+            window.location.href = "home.html";  // Redireciona para home.html
         })
         .catch((error) => {
             // Em caso de erro
