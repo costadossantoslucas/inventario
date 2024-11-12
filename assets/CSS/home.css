@@ -13,10 +13,11 @@ header {
     width: 100%;
     padding: 10px;
     text-align: right;
-    background-color: #4CAF50;
+    background-color: #000000;
 }
 
 #logoutBtn {
+    margin-right: 15px;
     padding: 10px 20px;
     background-color: #ff4d4d;
     color: white;
@@ -43,7 +44,7 @@ header {
 
 #searchBtn {
     padding: 10px 15px;
-    background-color: #4CAF50;
+    background-color: #f03737;
     color: white;
     border: none;
     border-radius: 4px;
@@ -51,7 +52,7 @@ header {
 }
 
 #searchBtn:hover {
-    background-color: #45a049;
+    background-color: #e04343;
 }
 
 #resultsContainer {
